@@ -1,15 +1,26 @@
-// Colors
-$clr-red: #ac2626;
-$clr-green: #56d756;
-$clr-cyan: #00ffff;
+// Soft Japanese light + Apple clarity
+$clr-red: #c45c5c;
+$clr-green: #5a9a6a;
+$clr-cyan: #3a6f7a;
 $clr-white: #ffffff;
-$clr-black: #111111;
-$clr-gray: #222222;
-$clr-border: #333333;
+$clr-black: #1d1d1f;
+$clr-gray: #f0eeeb;
+$clr-border: #d8d6d2;
 
-// Background Colors
-$bg-primary: $clr-black; // Main background color
-$bg-secondary: $clr-gray; // Secondary background color
+// Surfaces
+$bg-primary: #f7f6f3;
+$bg-secondary: #ffffff;
+
+// Text
+$text-primary: #1d1d1f;
+$text-secondary: #6e6e73;
+$text-tertiary: #86868b;
+
+// Accent (muted Japanese teal — calm, not neon)
+$accent: #3a6f7a;
+$accent-soft: rgba(58, 111, 122, 0.12);
+$sakura: #b87a7a;
+$sakura-soft: rgba(184, 122, 122, 0.12);
 
 // Sizes
 $size-small: 0.5rem;
@@ -18,5 +29,9 @@ $size-large: 1.5rem;
 $size-xlarge: 2rem;
 
 // Borders
-$border-radius: 8px;
+$border-radius: 12px;
 $border-color: $clr-border;
+
+// Elevation
+$shadow-soft: 0 1px 2px rgba(29, 29, 31, 0.04), 0 8px 24px rgba(29, 29, 31, 0.06);
+$shadow-lift: 0 4px 16px rgba(29, 29, 31, 0.08);
